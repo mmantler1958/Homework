@@ -1,0 +1,67 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+  align-items: center;
+}
+
+img {
+  height: 100%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+  width: auto;
+}
+
+#bio {
+display: block;
+
+}
+#bio > li {
+  padding: 2px;
+  list-style: none;
+}
+
+#pro {
+  width: auto;
+}
+
+/* #top {
+  height: 300px;
+} */
+@media (max-width:375px) {
+
+#top {
+
+  width: auto;
+  display: block;
+  width: auto;
+}
+ul {
+  list-style: none;
+}
+#introPic {
+    margin-top: 10px;
+}
+#earlyCareer >img {
+width: 100%;
+}
+#proCareer >img {
+width: 100%;
+}
+#acting >img {
+width: 100%;
+}
+}
