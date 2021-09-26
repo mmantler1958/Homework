@@ -26,8 +26,7 @@ div {
 }
 
 #bio {
-display: block;
-
+  display: block;
 }
 #bio > li {
   padding: 2px;
@@ -41,27 +40,26 @@ display: block;
 /* #top {
   height: 300px;
 } */
-@media (max-width:375px) {
-
-#top {
-
-  width: auto;
-  display: block;
-  width: auto;
-}
-ul {
-  list-style: none;
-}
-#introPic {
+@media (min-width: 375px) {
+  #top {
+    
+    display: block;
+   
+  }
+  ul {
+    list-style: none;
+  }
+  #introPic {
     margin-top: 10px;
-}
-#earlyCareer >img {
-width: 100%;
-}
-#proCareer >img {
-width: 100%;
-}
-#acting >img {
-width: 100%;
-}
+    
+  }
+  #earlyCareer > img {
+    width: 100%;
+  }
+  #proCareer > img {
+    width: 100%;
+  }
+  #acting > img {
+    width: 100%;
+  }
 }
