@@ -1,3 +1,3 @@
 export default () => `<header>
-  <h1>Example SPA</h1>
+  <h1>Example SPA - Stateless</h1>
 </header>`;
