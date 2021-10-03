@@ -40,7 +40,7 @@ div {
 /* #top {
   height: 300px;
 } */
-@media (min-width: 375px) {
+@media (max-width: 414px) {
   #top {
     
     display: block;
@@ -61,5 +61,6 @@ div {
   }
   #acting > img {
     width: 100%;
+ 
   }
 }
